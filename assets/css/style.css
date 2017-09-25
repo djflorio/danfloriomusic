@@ -1,0 +1,25 @@
+body {
+    background-image: url(../img/placeholder.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    position: relative;
+}
+
+.header__name {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ddd;
+    top: 7px;
+    left: 7px;
+}
+
+.header__music {
+    color: cadetblue;
+}
