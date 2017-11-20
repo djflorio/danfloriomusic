@@ -2,23 +2,41 @@
 <html>
     <head>
         <title>Dan Florio Music</title>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
         <script src="assets/js/main.js"></script>
     </head>
     <body>
-      <video id="bgvid" playsinline autoplay muted loop>
+      <video playsinline autoplay muted loop>
         <source src="assets/img/jellyfish.mp4" type="video/mp4">
       </video>
+      
+      <div class="video-overlay"></div>
         
-        <header class="header">
-            <h1 class="header__name">
-                dan florio <span class="header__music">music</span>
-            </h1>
-        </header>
+      <header class="header">
+        <h1 class="header__name">
+          dan florio <span class="header__music">music</span>
+        </h1>
+      </header>
+      
+      <table class="featured">
+        <tr>
+          <td class="featured__col">
+            <img class="album-art" src="assets/img/adaywiserwip.jpg">
+          </td>
+          <td class="featured__col">
+            <span class="featured__button featured__button--bandcamp">
+              Listen on Bandcamp
+            </span>
+            <span class="featured__button featured__button--spotify">
+              Listen on Spotify
+            </span>
+            <span class="featured__button featured__button--itunes">
+              Download from iTunes
+            </span>
+          </td>
+        </tr>
+      </table>
+      
     </body>
 </html>
