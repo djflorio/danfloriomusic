@@ -47,10 +47,16 @@ video {
   z-index: -99;
 }
 
-.featured {
-  padding: 20px;
+.container {
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
   max-width: 1000px;
   margin: auto;
+  padding: 20px;
 }
 
 .featured__col {
@@ -74,8 +80,29 @@ video {
   margin: 15px auto;
   background-color: rgba(0,0,0,0.5);
   cursor: pointer;
+    text-decoration: none;
 }
 
 .featured__button:hover {
-  background-color: rgba(255,255,255,0.3);
+  border-color: #ccc;
+    color: #ccc;
+}
+
+.about {
+  text-align: left;
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.about-text {
+  color: #ccc;
+}
+
+.about-text__link {
+  color: #005c2b;
+}
+
+.about-text__link:hover {
+  color: #ccc;
 }
