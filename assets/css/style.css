@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: black;
 }
 
 video {
@@ -34,6 +35,28 @@ video {
 
 .header__music {
     color: #005c2b;
+}
+
+.header__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-top: 14px;
+}
+
+.header__link {
+  display: inline-block;
+}
+
+.header__link a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.header__link a:hover {
+  color: #005c2b;
 }
 
 .video-overlay {
@@ -107,4 +130,27 @@ video {
 
 .about-text__link:hover {
   color: #ccc;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 70px;
+  }
+  .header__name {
+    position: relative;
+    display: block;
+    left: 10px;
+  }
+  .header__links {
+    display: block;
+    float: none;
+    margin: 5px 0 0 10px;;
+  }
+  video {
+    display: none; 
+  }
+  .featured__col {
+    display: block;
+    width: 100%;
+  }
 }
